@@ -1,6 +1,6 @@
 corr <- function(directory, threshold = 0) { #args: [1]directory name [2] threshold of complete cases in each file
   #set working directory
-  setwd("/Users/guidomassaccesi/Documents/Documents/Coursera/R Programming/Week 2/")
+  setwd("/.../Coursera/R Programming/Week 2/")
   #create list of file names in directoy
   file_names <- list.files(directory, full.names = TRUE)
   #create a numeric empty vector that will eventually store correlation values
